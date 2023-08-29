@@ -3,7 +3,7 @@ import '../../utils/utils.dart';
 class DioClient {
   DioClient._();
   static  Dio dio = Dio(BaseOptions(
-    baseUrl: BaseUrl.indlockUrl,
+    baseUrl: BaseUrl.baseUrl,
     contentType: Headers.jsonContentType,
     responseType: ResponseType.json,
     validateStatus: (_) => true,
