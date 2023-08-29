@@ -1,5 +1,3 @@
-
-
 import '../../utils/utils.dart';
 
 class NetworkService extends BaseApiServices {

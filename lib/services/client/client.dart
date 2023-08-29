@@ -1,3 +1,4 @@
+import '../../utils/utils.dart';
 
 class DioClient {
   DioClient._();

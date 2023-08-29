@@ -1,17 +1,4 @@
-import 'package:flutter/material.dart';
+import 'utils/utils.dart';
 
-void main(){
-   runApp(MyApp());
-}
+void main()=>intialize();
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold()
-    );
-  }
-}

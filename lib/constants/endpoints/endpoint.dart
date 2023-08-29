@@ -1,6 +1,5 @@
-im
 class EndPoint{
   EndPoint._();
-  BaseUrl? baseurl;
-  AuthEndPoint? authEndPoint;
+  // BaseUrl? baseurl;
+  // AuthEndPoint? authEndPoint;
 }
